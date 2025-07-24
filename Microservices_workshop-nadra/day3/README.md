@@ -6,12 +6,12 @@ Design and implement a microservices system that uses Service Discovery to dynam
 ---
 
 ## Tasks Completed with Eureka Server
-For the Eureka server, i have created the folder `EurekaServerMicroservicesProject`, with its own README file containing detailed instructions on how to set up the Eureka server and the microservices.
+For the Eureka server, i have created the folder `EurekaServerServiceDiscovery`, with its own README file containing detailed instructions on how to set up the Eureka server and the microservices.
 
 ---
 
 ## Tasks Completed with Kubernetes DNS
-For the Kubernetes DNS, I have created the folder `KubernetesDeployment`, with its own README file containing detailed instructions on how to set up the microservices using Kubernetes DNS.
+For the Kubernetes DNS, I have created the folder `KubernetesDnsServiceDiscovery`, with its own README file containing detailed instructions on how to set up the microservices using Kubernetes DNS.
 
 ---
 

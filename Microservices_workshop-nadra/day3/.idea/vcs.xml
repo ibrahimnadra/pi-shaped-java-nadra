@@ -2,7 +2,6 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$/../.." vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/EurekaServerMicroservices" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/KubernetesDnsMicroservices" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/EurekaServerServiceDiscovery" vcs="Git" />
   </component>
 </project>

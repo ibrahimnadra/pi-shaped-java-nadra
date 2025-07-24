@@ -1,0 +1,31 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: player-service-with-mysql
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: player-service
+  template:
+    metadata:
+      labels:
+        app: player-service
+    spec:
+      containers:
+        - name: player-service
+          image: nadra187/player-service:latest
+          env:
+            - name: DB_HOST
+              value: mysql # This should match the service name of the MySQL deployment
+            - name: DB_PORT
+              value: "3306"
+            - name: DB_NAME
+              value: microservice_db
+            - name: DB_USER
+              value: nadra187
+            - name: DB_PASSWORD
+              value: anything
+          ports:
+            - containerPort: 8080
+
